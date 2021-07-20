@@ -1,4 +1,4 @@
-# RDP_COFFIN
+# FREE_RDP
 
 > **2CPU & 7GB RAM**
 
