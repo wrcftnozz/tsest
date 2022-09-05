@@ -1,8 +1,7 @@
-# FREE_RDP
+# NGROK RDP
 
 > **2CPU & 7GB RAM**
 
-## You are not allowed to modify the project.
 * Click Fork in the right corner of the screen to save it to your Github.
 * Visit https://dashboard.ngrok.com to get **NGROK_AUTH_TOKEN**
 * In Github go to ⚙ Settings> Secrets> New repository secret
