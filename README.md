@@ -1,4 +1,3 @@
-* Click Fork in the right corner of the screen to save it to your Github.
 * Visit https://dashboard.ngrok.com to get **NGROK_AUTH_TOKEN**
 * In Github go to ⚙ Settings> Secrets> New repository secret
 * In Name: enter **NGROK_AUTH_TOKEN**
@@ -17,6 +16,7 @@ Credits towards [c9ffin](https://github.com/c9ffin) for creating and maintaining
 # Installation
 
 1. **Fork the repository** - begin with forking the repository by clicking the "Fork" button in the upper-right corner of the project
+2. **Fetch your ngrok token** - visit the [dashboard](https://dashboard.ngrok.com) and copy your ngrok token (`NGROK_AUTH_TOKEN`)
 
 ### Secret Initialization
 
