@@ -1,7 +1,3 @@
-* Go to Action> RDP_COFFIN> Run workflow
-* Reload the page and press RDP_COFFIN> build
-* Press the down arrow on Connect To Your RPD to get IP, User, Password.
-
 **What is ngrok?** *ngrok* is a cross-platform application that enables developers to expose a local development server to the Internet with minimal effort. This repository allows the use of *ngrok* and github actions to create temporary/disposable development environments. Usage with intention including but not limited to abuse, mining, or abusing/violating terms of services (of github/ngrok) is strictly prohibited.
 
 > Environment Specifications: 2 CPU & 7GB RAM
