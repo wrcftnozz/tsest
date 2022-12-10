@@ -9,7 +9,7 @@ Credits towards [c9ffin](https://github.com/c9ffin) for creating and maintaining
 1. **Fork the repository** - begin with forking the repository by clicking the "Fork" button in the upper-right corner of the project
 2. **Fetch your ngrok token** - visit the [auth dashboard](https://dashboard.ngrok.com/auth/your-authtoken) and copy your auth token
 3. **Setup repository secret** - navigate to your repository secrets (Settings > Secrets > Actions) and create a secret (New repository secret) named `NGROK_AUTH_TOKEN`, and paste your auth token into the value
-4. **Activate/initialize environment** - navigate to the workflow action (Actions > INITIALIZE_RDP) and run the workflow (Run workflow)
+4. **Activate/initialize environment** - navigate to the workflow action (Actions > INITIALIZE) and run the workflow (Run workflow)
 5. ⏱️ **Wait for intialization** - wait for your action to complete, upon completion you'll be provided the credentials and information to connect to the environment by pressing the dropdown (Connection Instructions)
 
 # Notes
