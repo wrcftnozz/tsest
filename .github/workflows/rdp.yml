@@ -1,4 +1,4 @@
-name: INITIALIZE_RDP
+name: INITIALIZE
 
 on: workflow_dispatch
 
