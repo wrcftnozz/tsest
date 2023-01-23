@@ -14,6 +14,7 @@ curl -o "C:\Users\Public\Desktop\npp.7.9.4.Installer.x64.exe" https://raw.github
 curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/jtmaveryk/ngrok/main/Files/Everything.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\BANDIZIP-SETUP.exe" https://raw.githubusercontent.com/jtmaveryk/ngrok/main/Files/BANDIZIP-SETUP.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Radmin_VPN_1.3.4568.3.exe" https://raw.githubusercontent.com/Digital-Communication/Github-RDP/main/Files/Radmin_VPN_1.3.4568.3.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\YouTube-Viewer_win_1.7.6.zip" https://raw.githubusercontent.com/Digital-Communication/Github-RDP/main/Files/YouTube-Viewer_win_1.7.6.zip > out.txt 2>&1
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
