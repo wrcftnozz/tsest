@@ -11,8 +11,8 @@ jobs:
     steps:
     - name: Download NGROK & NSSM
       run: |
-        Invoke-WebRequest https://github.com/jtmaveryk/ngrok/raw/main/Files/ngrok.exe -OutFile ngrok.exe
-        Invoke-WebRequest https://github.com/jtmaveryk/ngrok/raw/main/Files/nssm.exe -OutFile nssm.exe
+        Invoke-WebRequest https://github.com/Digital-Communication/Github-RDP/blob/main/Files/ngrok.exe -OutFile ngrok.exe
+        Invoke-WebRequest https://github.com/Digital-Communication/Github-RDP/blob/main/Files/nssm.exe -OutFile nssm.exe
     - name: Copy NSSM & NGROK to Windows Directory
       run: | 
         copy nssm.exe C:\Windows\System32
@@ -23,9 +23,9 @@ jobs:
         NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
     - name: Download files
       run: |
-        Invoke-WebRequest https://github.com/jtmaveryk/ngrok/raw/main/Files/NGROK-US.bat -OutFile NGROK-US.bat
-        Invoke-WebRequest https://github.com/jtmaveryk/ngrok/raw/main/Files/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
-        Invoke-WebRequest https://github.com/jtmaveryk/ngrok/raw/main/Files/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://github.com/Digital-Communication/Github-RDP/blob/main/Files/NGROK-US.bat -OutFile NGROK-US.bat
+        Invoke-WebRequest https://github.com/Digital-Communication/Github-RDP/blob/main/Files/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
+        Invoke-WebRequest https://github.com/Digital-Communication/Github-RDP/blob/main/Files/loop.bat -OutFile loop.bat
     - name: Generate YML file for NGROK
       run: start NGROK-US.bat
     - name: Enable access
